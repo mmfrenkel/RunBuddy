@@ -7,7 +7,7 @@ RunBuddy is a simple java swing application designed to create half-marathon tra
 
 When RunBuddy is initially launched, the user is prompted to setup a new user by submitting four pieces of information: 
 *  name
-*  age group, 
+*  age group
 *  ability level 
 *  time until the half marathon. 
 
@@ -17,7 +17,7 @@ The user can type in their name, but must click on the different buttons to sele
   <img src="./documentation/welcomeframe.png" width="450" title="Initial training plan">
 </p>
 
-To continue to their training plan, a user must press the SUBMIT button at the bottom of the application after selecting one option from each category. Note that as a user attempts to submit their profile, Running Buddy will not allow either: (1) incomplete submissions, where none of the options have been selected for a given category or (2) a time frame less than 5 weeks in length, as this is too short tof a training period.
+To continue to their training plan, a user must press the SUBMIT button at the bottom of the application. Note that as a user attempts to submit their profile, Running Buddy will not allow either: (1) incomplete submissions, where none of the options have been selected for a given category, or (2) a training time frame <5 weeks in length, as this is too short tof a training period.
 
 Once the submission is accepted, the user’s profile will be saved locally in a .txt file. This means that if a user launches the Running Buddy program in the future, they can select their existing user profile to generate their training plan.
 
