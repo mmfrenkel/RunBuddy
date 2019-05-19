@@ -45,7 +45,7 @@ When the user has successfully completed all runs (i.e., all check boxes are mar
 
 ## 3. Technologies
 
-This is a desktop application build using the following technologies
+This is a desktop application built using the following technologies:
 * Java
 * Swing
 
@@ -65,3 +65,10 @@ To compile, navigate to src directory and compile with javac:
 To run:
 
 ```java RunBuddy.java```
+
+## 4. Future Features
+
+The follow list represents a non-exhaustive list of "to-do" items to improve RunBuddy:
+* Add user authentication
+* Use build system (e.g., Maven or Gradle) for the project
+* Allow user to load another user's training plan from file to Training Frame UI
