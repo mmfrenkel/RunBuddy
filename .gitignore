@@ -1,0 +1,6 @@
+*.class
+*profile.txt
+*training_plan.txt
+*.idea
+.idea/
+.DS_Store
