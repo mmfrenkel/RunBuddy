@@ -14,7 +14,7 @@ When RunBuddy is initially launched, the user is prompted to setup a new user by
 The user can type in their name, but must click on the different buttons to select their option for the other categories. When they select an option, it will highlight in blue (see Figure below). These settings will help to tailor the training plan to a user’s unique characteristics.
 
 <p align="center">
-  <img src="./documentation/welcomeframe.png" width="450" title="Initial training plan">
+  <img src="./documentation/welcomeframe.png" width="500" title="Initial training plan">
 </p>
 
 To continue to their training plan, a user must press the SUBMIT button at the bottom of the application. Note that as a user attempts to submit their profile, Running Buddy will not allow either: (1) incomplete submissions, where none of the options have been selected for a given category, or (2) a training time frame <5 weeks in length, as this is too short tof a training period.
@@ -24,18 +24,18 @@ Once the submission is accepted, the user’s profile will be saved locally in a
 With the user information submitted the training plan will be generated behind-the scenes and saved as a .txt file that a user can reference. Immediately afterwards, a user will see a new UI frame that shows an empty progress bar and each of the designated workouts, day by day, until their half marathon race (See Figure below). Each run has a check box associated with it, which a user can click to designate that they have finished the run. When a run is clicked, it fades slightly to designate that it is complete.
 
 <p align="center">
-  <img src="./documentation/trainingframe.png" width="300" title="Initial training plan">
+  <img src="./documentation/trainingframe.png" width="350" title="Initial training plan">
 </p>
 
 As runs are completed, the progress bar at the top of the frame and the fields displaying the total miles run and number of runs finished will be updated to allow a user to see their total progress toward their goal.If a user accidentally denotes a run as “done”, they can simply uncheck the box to correct the error.
 
 <p align="center">
-  <img src="./documentation/trainingframe_working.png" width="300" title="Training plan frame as user logs runs">
+  <img src="./documentation/trainingframe_working.png" width="350" title="Training plan frame as user logs runs">
 </p>
 
 When the user has successfully completed all runs (i.e., all check boxes are marked), Running Buddy will alert the user that their training is complete (See Figur 3)! At that point, their work is done and they can start a new plan over again.
 
 <p align="center">
-  <img src="./documentation/trainingframe_complete.png" width="350" title="Training plan UI when user has completed runs"> 
+  <img src="./documentation/trainingframe_complete.png" width="380" title="Training plan UI when user has completed runs"> 
 </p>
 
