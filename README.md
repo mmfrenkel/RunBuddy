@@ -1,11 +1,11 @@
 # RunBuddy
 
-### 1    What is this tool?
+## 1.    What is this tool?
 RunBuddy is a simple java swing application designed to create half-marathon training plans specific for a given user, based on their age, ability level, and available training time. The program allow users to log and update each of their runs so that their training stays on track!
 
-### 2    How does a User interact with RunBuddy?
+## 2.    How does a User interact with RunBuddy?
 
-#### 2.1 Welcome  UI
+### 2.1 Welcome  UI
 
 When RunBuddy is initially launched, the user is prompted to setup a new user by submitting four pieces of information: 
 *  name
@@ -23,7 +23,7 @@ To continue to their training plan, a user must press the SUBMIT button at the b
 
 Once the submission is accepted, the user’s profile will be saved locally in a .txt file. This means that if a user launches the Running Buddy program in the future, they can select their existing user profile to generate their training plan.
 
-#### 2.1 Training Plan UI
+### 2.1 Training Plan UI
 
 With the user information submitted the training plan will be generated behind-the scenes and saved as a .txt file that a user can reference. Immediately afterwards, a user will see a new UI frame that shows an empty progress bar and each of the designated workouts, day by day, until their half marathon race (See Figure below). Each run has a check box associated with it, which a user can click to designate that they have finished the run. When a run is clicked, it fades slightly to designate that it is complete.
 
