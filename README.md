@@ -52,14 +52,16 @@ This is a desktop application build using the following technologies
 ### 3.1 Development 
 This app was developed on a Mac with the following java environment:
 
-java 11.0.2 2019-01-15 LTS
-Java(TM) SE Runtime Environment 18.9 (build 11.0.2+9-LTS)
-Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.2+9-LTS, mixed mode)
+* java 11.0.2 2019-01-15 LTS
+* Java(TM) SE Runtime Environment 18.9 (build 11.0.2+9-LTS)
+* Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.2+9-LTS, mixed mode)
 
 ### 3.2 Usage 
 
 To compile, navigate to src directory and compile with javac:
+
 ```javac src/main/RunBuddy.java```
 
 To run:
+
 ```java RunBuddy.java```
