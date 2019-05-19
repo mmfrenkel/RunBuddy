@@ -3,7 +3,7 @@ An interactive swing application for designing half marathon training plans and 
 
 ### Submitting user input
 <p align="center">
-  <img src="./documentation/welcomeframe.png" width="240" title="Initial training plan">
+  <img src="./documentation/welcomeframe.png" width="400" title="Initial training plan">
 </p>
 
 ### Interacting the Training Plan
