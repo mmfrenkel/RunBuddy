@@ -5,12 +5,7 @@
 
 class RunBuddy
 {
-    private String status;
-
-    public RunBuddy()
-    {
-        status = "Welcome";
-    }
+    public RunBuddy() {}
 
     public static void main (String [] args) throws InterruptedException
     {
