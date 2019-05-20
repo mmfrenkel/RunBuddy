@@ -5,8 +5,6 @@
 
 class RunBuddy
 {
-    public RunBuddy() {}
-
     public static void main (String [] args) throws InterruptedException
     {
         WelcomeFrame welcomeFrame = new WelcomeFrame("Welcome to Run Buddy!");
